@@ -1,6 +1,9 @@
 # WeatherApp
  A simple application for displaying the weather in the entered city.
 
+ The app shows the current weather conditions (temperature, weather description and an icon representing the weather) for a given location.
+The OpenWeatherMap public API is used to get current weather data.
+
 ## Screenshots
 
 
