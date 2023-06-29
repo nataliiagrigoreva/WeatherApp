@@ -7,7 +7,7 @@
 import Foundation
 
 class WeatherService: WeatherServiceProtocol {
-    private let apiKey = "a1bfaa8858055760dceaa2bc4ef475cc"
+    private let apiKey = "YOUR_KEY"
     
     func getCurrentWeather(city: String, completion: @escaping (Weather?, Error?) -> Void) {
         if let encodedCity = city.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) {
